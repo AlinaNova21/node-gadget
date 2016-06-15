@@ -81,3 +81,8 @@ udc can be left undefined to automatically select the default udc
 ##### disable(id,cb)
 Disables the gadget
 This does not remove it from the system
+
+##### getHIDStream(name || index)
+returns a Duplex stream for the HID Device.
+NOTE: this assumes linux creates the /dev/hidg* devices in the right order, 
+more than one HID device may screw with this.
