@@ -1,0 +1,23 @@
+{
+	"id": "ethernet",
+	"idVendor": "0x1209",
+	"idProduct": "0x0001",
+	"strings":[{
+		"id": "0x409",
+		"serialnumber": "",
+		"manufacturer": "Generic",
+		"product": "USB Ethernet"
+	}],
+	"functions": [{
+		"id": "ecm.usb0",
+		"comment": "USB Ethernet"
+	}],
+	"configs":[{
+		"id": "c.1",
+		"strings":[{
+			"id": "0x409",
+			"configuration": "USB Ethernet"
+		}],
+		"functions": ["ecm.usb0"]
+	}]
+}
