@@ -1,18 +1,18 @@
-= Node project for managing OTG USB gadgets
+# Node project for managing OTG USB gadgets
 
 Developed with Node 6.2, should work on at least 5+
 
-== Known working devices: 
+## Known working devices: 
 CHIP (Requires building a kernel with USB gadgets set to use configfs)
 
-== Should work with
+## Should work with
 	Pi Zero
 	Any SoC with OTG and a recent kernel supporting configfs
 
-= Installation
+## Installation
 `npm install -g ags131/node-gadget`
 
-= Usage
+## Usage
 ```
 Usage: gadget <options> args
 
