@@ -1,0 +1,32 @@
+{
+	"id": "HID-Mouse",
+	"idVendor": "0x1337",
+	"idProduct": "0x0001",
+	"strings":[{
+		"id": "0x409",
+		"serialnumber": "",
+		"manufacturer": "",
+		"product": "mousy"
+	}],
+	"functions": [{
+		"id": "hid.usb0",
+		"comment": "mouse",
+		"type": "hid",
+		"name": "mouse",
+		"report":"05010906a101050719e029e71500250175019508810295017508810395057501050819012905910295017503910395067508150025650507190029658100c0"
+	}],
+	"configs":[{
+		"id": "c.1",
+		"strings":[{
+			"id": "0x409",
+			"configuration": "USB Ethernet"
+		}],
+		"functions": ["hid.usb0"],
+		"files":[
+			{
+			"name": "MaxPower",
+			"content": 250
+			}
+		]
+	}]
+}
