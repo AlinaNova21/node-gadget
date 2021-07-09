@@ -1,19 +1,22 @@
 {
   "name": "node-gadget",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/Gadget.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
   },
   "author": "",
   "license": "ISC",
   "bin": {
-    "gadget": "bin/gadget"
+    "gadget": "bin/gadget.js"
   },
   "dependencies": {
-    "async": "^2.0.0-rc.6",
-    "event-stream": "^3.3.2",
+    "glob": "^7.1.7",
     "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
   }
 }

@@ -1,3 +1,3 @@
 module.exports = {
-	get Gadget(){ return require('./lib/Gadget') }
+  get Gadget () { return require('./lib/Gadget') }
 }

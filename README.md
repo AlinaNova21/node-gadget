@@ -3,14 +3,13 @@
 ## Requirements
 * Recent kernel with configfs support 4.0 or higher recommended
 * libcomposite module loaded
-* Node 5+
 * A supported device with a OTG port
-It MAY run on node 4.2+, but has not been tested.
 
 ## Supported devices:
 ### Tested 
 * CHIP (Requires building a kernel with USB gadgets set to use configfs)
 * Pi Zero
+* Pi4
 
 ### Untested
 * Any SoC with OTG and a recent kernel supporting configfs
