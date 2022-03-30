@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "glob": "^7.1.7",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.6"
   },
   "devDependencies": {
     "standard": "^16.0.3"
